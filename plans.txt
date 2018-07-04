@@ -1,0 +1,6 @@
+I'll need the following things:
+
+   a 'back end' library that can take 
+     a map with some GIS data ; initially TOPO data but STOP SIGNS matter also.
+     a few parameters, maybe
+   and calculate one or more sick ass routes to shred.
