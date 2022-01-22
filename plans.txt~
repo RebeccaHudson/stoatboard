@@ -1,0 +1,18 @@
+I'll need the following things:
+
+   * a 'back end' library that can take 
+     a map with some GIS data ; initially TOPO data but STOP SIGNS matter also.
+     a few parameters, maybe
+    and calculate one or more sick ass routes to shred.
+
+   * a rails app that uses this library and stores results
+     and outputs a JSON block containing the results of the calculation.
+
+   * a leaflet JS project frontend that displays these routes on maps and provides controls.
+  
+
+   start with 4 modes: 
+     default: longest continual downgrade within N %
+     agressive: steepest downgrade.
+     mellow: shallowest downgrade. 
+     circiut: routes that provide a quick walk back to the top for a long downgrade, like a waterslide type thing.
